@@ -6,6 +6,6 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
-    entrypoint: django-admin --version
+    entrypoint: bash start-project.sh
     volumes:
       - .:/usr/src/app/
