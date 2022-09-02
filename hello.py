@@ -1,0 +1,1 @@
+print("Message from Docker container.\n Be nice!")
